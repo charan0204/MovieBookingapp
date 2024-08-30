@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Booking app</title>
+    <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    
+    <style>
+      .jumbotron {
+        margin-bottom: 0px;
+        background-color: #eee9e9;
+      }
+      .footer {
+        background-color: #f1f1f1;
+        padding: 25px;
+      }
+      #intro-example {
+        height: 600px;
+        position: relative;
+      }
+      .main {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .btn {
+        font-size: 30px;
+      }
+      .h1{
+        font-size:25px ;
+      }
+      #myNavbar {
+        font-size: 20px;
+      }
+      #nav-head {
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <h1 class="text-size:l">Welcome to Movie Ticket Booking Application</h1>  
+    </div>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" id="nav-head">MovieBooking</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="intro-example"
+      class="m-5 text-center bg-image"
+      style="background-image: url('./images/WhatsApp\ Image\ 2024-08-27\ at\ 11.06.17\ PM.jpeg'); background-repeat: no-repeat; background-size: cover;">
+      
+      <div class="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <a href="AdminLoginPage.html">
+                <button type="button" class="btn btn-primary">Admin</button>
+              </a>
+            </div>
+
+            <div class="col-md-2">
+              <a href="UserLoginPage.html">
+                <button type="button" class="btn btn-success">User</button>
+              </a>
+            </div>
+            <div class="col-md-2">
+              <a href="SearchMoviePage.html">
+                <button type="button" class="btn btn-warning">Search Movie</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="jumbotron text-center footer">
+      <p>&copy; 2024 Movie Booking App. All rights reserved.</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+  </body>
+</html>
